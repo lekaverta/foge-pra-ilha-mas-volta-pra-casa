@@ -11077,3 +11077,15 @@ html {
     margin: 0 auto;
     display: table;
 }
+
+@media (max-width: 767px) {
+    html {
+        width: 100% !important;
+    }
+    #about h2 {
+        font-size: 4rem !important;
+    }
+    .masthead .masthead-avatar {
+        width: 22rem !important;
+    }
+}
