@@ -11088,4 +11088,7 @@ html {
     .masthead .masthead-avatar {
         width: 22rem !important;
     }
+    #prefeitura {
+        padding-top: 0px !important;
+    }
 }
