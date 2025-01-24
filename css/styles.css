@@ -11067,9 +11067,11 @@ html {
 }
 
 #presentation {
-    background: url(../assets/img/Ilha-do-Prumirim-Ubatuba.jpg);
-    background-position: center;
+    background: url(../assets/img/Ilha-do-Prumirim-Ubatuba.jpg) no-repeat;
     padding-bottom: 20rem;
+    background-size: 100%;
+    background-position: bottom;
+    background-color: #6bc7fc !important;
 }
 
 .portfolio-item img {
@@ -11094,5 +11096,8 @@ html {
     }
     #prefeitura, #terra-viva {
         padding-top: 0px !important;
+    }
+    #presentation {
+        padding-bottom: 12rem !important;
     }
 }
