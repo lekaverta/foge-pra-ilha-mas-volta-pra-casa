@@ -11094,7 +11094,7 @@ html {
     .masthead .masthead-avatar {
         width: 22rem !important;
     }
-    #prefeitura, #terra-viva {
+    .portfolio-item {
         padding-top: 0px !important;
     }
     #presentation {
