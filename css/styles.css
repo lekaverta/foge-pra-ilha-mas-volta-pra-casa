@@ -23,7 +23,7 @@
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
-  --bs-gray: #6c757d;
+  -gray-bs-: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
@@ -42,13 +42,15 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 45, 174, 214;
+  --bs-primary-rgb: 30, 43, 64;
+  /*--bs-primary-rgb: 45, 174, 214;*/
   --bs-secondary-rgb: rgb(1,49,93);
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
+
+  --bs-light-rgb: 123, 123, 123;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -11072,6 +11074,22 @@ html {
     background-size: 100%;
     background-position: bottom;
     background-color: #6bc7fc !important;
+    padding-top: 0px !important;
+}
+
+#primeira-edicao {
+    background-color: rgb(45, 174, 214) !important;
+    display: table;
+    width: 100%;
+}
+
+#primeira-edicao > div, #primeira-edicao #relative {
+    display: table;
+}
+
+#relative {
+    position: relative;
+    width: 100%;
 }
 
 .portfolio-item img {
@@ -11082,6 +11100,29 @@ html {
 
 #terra-viva {
     padding-top: 5rem;
+}
+
+video {
+    max-width: 30%;
+    margin-right: 20px;
+    float: left;
+    display: table;
+}
+
+#signup {
+    width: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    top: 50%;
+    background: -webkit-linear-gradient(#3bafb7, rgb(218, 220, 224));
+    padding: 0px !important;
+}
+
+iframe {
+    width: 100%;
+    height: 469px;
 }
 
 @media (max-width: 767px) {
@@ -11099,5 +11140,19 @@ html {
     }
     #presentation {
         padding-bottom: 12rem !important;
+    }
+    video {
+        max-width: 75% !important;
+        margin: 0 auto !important;
+        float: none !important;
+        display: table;
+    }
+    #signup {
+        width: 100%;
+        position: relative;
+        transform: none;
+    }
+    iframe {
+        height: 590px !important;
     }
 }
