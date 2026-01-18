@@ -34,17 +34,17 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #2daed6;
-  --bs-secondary: #01315D;
+  --bs-primary: #205A28;
+  --bs-secondary: #DDD0C8;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 30, 43, 64;
+  --bs-primary-rgb: 32, 90, 40;
   /*--bs-primary-rgb: 45, 174, 214;*/
-  --bs-secondary-rgb: rgb(1,49,93);
+  --bs-secondary-rgb: 221, 208, 200;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -6659,12 +6659,12 @@ textarea.form-control-lg {
 
 .text-bg-primary {
   color: #fff !important;
-  background-color: RGBA(26, 188, 156, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(32, 90, 40, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
-  color: #fff !important;
-  background-color: RGBA(44, 62, 80, var(--bs-bg-opacity, 1)) !important;
+  color: #205A28 !important;
+  background-color: RGBA(221, 208, 200, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -10857,9 +10857,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #205A28;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #205A28;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10868,14 +10868,14 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: #205A28;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #FAF5E9;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: #FAF5E9;
 }
 
 .btn-xl {
@@ -11010,7 +11010,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(221, 208, 200, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11020,7 +11020,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: #205A28;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -11038,12 +11038,12 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
+  background-color: #205A28;
+  color: #FAF5E9;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #DDD0C8;
 }
 
 /* CUSTOM */
@@ -11073,12 +11073,12 @@ html {
     padding-bottom: 20rem;
     background-size: 100%;
     background-position: bottom;
-    background-color: #6bc7fc !important;
+    background-color: #DDD0C8 !important;
     padding-top: 0px !important;
 }
 
 #primeira-edicao {
-    background-color: rgb(45, 174, 214) !important;
+    background-color: #DDD0C8 !important;
     display: table;
     width: 100%;
 }
